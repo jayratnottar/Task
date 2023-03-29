@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3 align="CENTER">Using TABLES in Websites</h3>
+
+    <table border="1" align="center">
+      <caption>
+        <h1>Caption-Nested Table</h1>
+      </caption>
+      <tr align="center">
+        <th>Column 1</th>
+        <th>Column 2</th>
+      </tr>
+      <tr align="center">
+        <td colspan="2" ; align="center">Colspan Column</td>
+      </tr>
+      <tr align="center">
+        <td rowspan="2">Rowspan Cell</td>
+        <td>Cell 2</td>
+      </tr>
+      <tr align="center">
+        <td>
+          <table border="1"  align="center" bgcolor="yellow" cellspacing="5px" cellpadding="5px">
+            <tr align="center">
+              <th>Inner Column Heading 1</th>
+              <th>Inner Column Heading 2</th>
+            </tr>
+            <tr align="center">
+              <td bgcolor="blue">Inner Data Cell 1</td>
+              <td bgcolor="green">
+                <table border="1" align="center" bgcolor="pink">
+                  <tr align="center">
+                    <th>Inner Most Column Heading 1</th>
+                    <th>Inner Most Column Heading 2</th>
+                  </tr>
+                  <tr align="center">
+                    <td bgcolor="Green">Innermost Data Cell 1</td>
+                    <td bgcolor="red">Innermost Data Cell 2</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
